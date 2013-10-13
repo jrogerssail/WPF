@@ -7,12 +7,11 @@ var batSizes = prompt("What size bat are you looking for?"); //Room width
 var space = new Array("<br />"); //Users first name
 document.write(space);
 var batBrand = new Array("<br />Easton<br />Nike<br />Demarinni<br />Louisville Slugger"); //Users first name
-var batCost = new Array("<br />Easton 149.00<br />Nike 149.00<br />Demarinni 139.00<br />Louisville Slugger 129.00"); //Users first name
+var batCost = 149.00;//Formula to find the sq area of a room
 var batBrands = prompt("What brand are you looking for?"); //Room width
 document.write(batBrand);
 console.log(batSize + batBrand);//JS Console
-var ideal = batSize + batBrand;//Formula to find the sq area of a room
-alert(" The best bat match is " + ideal + " baseball bat")//Answer to user inputs
 var shipCharge = 9.99;
 var itemChargeTax = batCost * 0.07 + shipCharge;
+alert("The price of your bat is $" + itemChargeTax + )//Answer to user inputs
 document.write("The price of your bat is $" + itemChargeTax + "<br />");
