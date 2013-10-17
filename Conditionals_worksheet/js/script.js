@@ -36,20 +36,36 @@ if(canI < 200){
 }
 
 //GROUP 2 - CHECK THE LOGIN
-var userName = Array("Jason", "Mason", "Matthew", "Colette", "Abby", "Baylee" );
-var myMPG = prompt("What is the MPG of your car?"); //Drivers MPG
-var myTank = prompt("What is gas gauge reading in PERCENT?");//Gas in tank
-var carTank = prompt("How many gallons does your tank hold?");//Max gallons of tank
-var canI = myMPG * carTank/myTank;//Final formula
-if(canI < 200){
+//function login(){
+	var userName = prompt("Enter username");
+	var savedName = Array("Jason", "Mason", "Matthew", "Colette", "Abby", "Baylee");
+	var passWord = prompt("Enter password");
+	var userPass = new Array("Password1", "Password2", "Password3", "Password4", "Password5", "Password6");
+	if(userName == "savedName" && "passWord" == "savedPass"){
+		console.log("Successful Login");
+	}else{
+		console.log("Crappy Login");
+	};
+	//var UserNameQuestion = prompt("What is your user name?");
+	////////////var UserName = Array("Jason", "Mason", "Matthew", "Colette", "Abby", "Baylee");
+	//////////if(UserNameQuestion == 'UserName'){
 	//if its less than 200
-	console.log("You only have X gallons of gas in your tank, better get gas now while you can!");
-}else{
+	////////console.log("Successful username");
+//////}else{
 	//if it's greater or equal to 200
-	console.log("Yes, you can make it without stopping for gas!");
-}
-var unArray = ["Philip", "George", "Sarah", "Michael"];  // as many as you like - no comma after final entry
-var pwArray = ["Password1", "Password2", "Password3", "Password4"];  // the corresponding passwords;
+	////console.log("The username is no good");
+//}
+	//console.log(UserNameQuestion + UserName);
+	 //Drivers MPG
+	//var userName = new Array("Jason", "Mason", "Matthew", "Colette", "Abby", "Baylee");
+	//var userPass = new Array("Password1", "Password2", "Password3", "Password4", "Password5", "Password6");
+	//if(userName==''){
+		//return true;
+	//}
+	//if (userPass==''){
+		//return true;
+	//}
+//};
 
 
 
