@@ -1,16 +1,49 @@
-//Lewie "Jason" Rogers, 10/10/2013, Conditionals_worksheet
+//Lewie "Jason" Rogers, 10/10/2013, Conditionals_Personal
 
-//HOT ENOUGH?
-//Is it hot enough to go to beach?
-var myTemp = prompt("What is the current temp?"); //Input the current temp
-//var temp = 80; //Not used in formula
-if(myTemp < 75){
-	//if its less than 75
-	console.log("We will go to the beach!");
+//Can player be added to Homerun Derby?
+//var age = prompt("Enter Age:", "");
+//var isOverSixty = parseInt(age) > 60;
+//console.log("Older than 60: " + isOverSixty);
+
+var userName = prompt("Enter username:", "");
+var savedName = parseInt(age) > 60;
+console.log("Older than 60: " + savedName);
+
+var msgArray = new Array();
+msgArray[0] = "Hello";
+msgArray[99] = "world";
+
+if (msgArray.length == 100)
+   console.log("The length is 100.");
+var mycars = new Array();
+var userName = prompt("Enter car");
+var savedName = new Array("Jason", "Mason", "Matthew", "Colette", "Abby", "Baylee");
+mycars[0] = "Saab";
+mycars[1] = "Volvo";
+mycars[2] = "BMW";
+console.log(mycars);
+
+var userName = prompt("Enter username");
+var savedName = new Array("Jason", "Mason", "Matthew", "Colette", "Abby", "Baylee");
+if(userName [0] [1] [2] [3] [4] [5] = "Correct username!");
+if(userName = new Array){
+	//if its less than 250
+	console.log("username is correct!");
 }else{
-	//if it's greater or equal to 75
-	console.log("We will go to movies.");
+	//if it's greater or equal to 250
+	console.log("Please try again.");
 }
+//console.log(userName [0] [1] [2] [3] [4] [5] = new Array);
+//var myHr = prompt("How many homeruns have you hit this season?"); //Player Homeruns
+//var myGames = prompt("How many games have you played this season?"); //Player Homeruns
+//var temp = 80; //Not used in formula
+//if("myHr < 8" + "myGames < 10"){
+	//if less than 8
+	//console.log("Eat more meat and play more games!");
+//}else{
+	//if more or equal to 8
+	//console.log("You are invited to compete in the Homerun Derby!");
+//}
 
 //STUFF YOUR FACE
 var myWeight = prompt("What is your current weight"); //Competitors Weight
