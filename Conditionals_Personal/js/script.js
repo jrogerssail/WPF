@@ -1,4 +1,4 @@
-//Lewie "Jason" Rogers, 10/10/2013, Conditionals_Personal
+//Lewie "Jason" Rogers, 10/10/2013, Conditionals_Industry
 
 //What is my batting average?
 var atBats = prompt("Enter number of at-bats.");//Total number of at-bats
