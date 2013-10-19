@@ -1,18 +1,18 @@
-//Lewie "Jason" Rogers, 10/10/2013, Conditionals_Industry
+//Lewie "Jason" Rogers, 10/10/2013, Conditionals_Wacky
 
 //What is my batting average?
-var onlineSales = prompt("Total number of sales.");//Total number of at-bats
-var discount = onlineSales * .20;//Number of basehits
-var totalSales = discount;//Walks are subtracted from at-bats
-//var extraDiscount = 0.05;
-var maxDiscount = totalSales * extraDiscount;
-if(totalSales > 500){
-	//if its less than .280
-	alert("Your discount is $" + totalSales);
-	console.log("Thank you for your order.");
+var onlineSales = prompt("Total number of sales.");//Total sales
+var discount = onlineSales * .20;//affiliate discount
+alert("Your discount is $" + discount);//Announces your discount
+var creditSales = onlineSales - discount;//Calculates new var after discount is applied
+var extraDiscount = 0.05;//extra discount for sales over $500
+var maxDiscount = creditSales * extraDiscount;//Calculates new var after max discount is applied
+var finalBill = creditSales - maxDiscount;//final cost
+if(creditSales < 500){
+	//if its less than $500
+	alert("Your balance is $" + creditSales);//Shows balance after first discount and finishes order
+	console.log("Thank you for your order.");//Ending script
 }else{
-	alert("Your discount is $" + maxDiscount);
-	console.log("Your discount is $" + maxDiscount);
+	alert("Your final balance is $" + finalBill);//Max discount is applied and shown
+	console.log("Your final balance is $" + finalBill);//Final cost
 }
-//alert("Your discount is $" + totalSales);//Gives player results
-//console.log(else);//Displays batting average in console
