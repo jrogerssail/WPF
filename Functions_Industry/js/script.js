@@ -29,16 +29,4 @@ if(tvSize < tvStock){		//checks condition
 	console.log("These are your TV choices... " + stockSizes + tv22 + " inch RCA, " + tv24 + " inch Vizio, " + tv26 + " inch Samsung");
 	tvStock --; //increments or decrements the index
 }
-//console.log("These are you TV choices " + tvStock);
-
-
-
-//console.log('---------- For Loops ----------')
-
-//tvChoices(22inch RCA, 22inch Samsung, 24inch RCA);
-
-
-for(var tvSize = 22; tvSize < 27; tvSize++){
-document.write(tvSize + " ");
-}
-//console.log(a);
+document.write("These are your TV choices... " + stockSizes + tv22 + " inch RCA, " + tv24 + " inch Vizio, " + tv26 + " inch Samsung");
