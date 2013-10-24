@@ -1,4 +1,4 @@
-//Lewie "Jason" Rogers, 10/21/2013, Functions_Industry
+//Lewie "Jason" Rogers, 10/21/2013, Functions_Wacky
 
 //Average TV Size
 var tvSize = prompt("What size TV are your looking to purchase?"); //Ask user question
