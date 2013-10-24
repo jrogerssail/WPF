@@ -1,24 +1,21 @@
-//Lewie "Jason" Rogers, 10/21/2013, Functions_Worksheet
+//Lewie "Jason" Rogers, 10/21/2013, Functions_Personal
 
-//Circumference
-var circumCircle = function(p, d){
-	var circumference = 3.14 * 6;
-	return circumference;
+//ERA
+var earnedRuns = prompt("How many earned runs were charged to the pitcher?");//Total sales
+var inningsPitched = prompt("How many innings did the pitcher pitch?");//Total sales
+var era = function(e, i){
+	var completeGame = 9;
+	var era = (e / i) * completeGame;
+	return era;
 }
 
-var circle = circumCircle(3.14, 6);
+var pitchersEra = era(earnedRuns, inningsPitched);
 
-console.log("The circumference of the circle is " + circle);
+console.log("The pitchers ERA is " + pitchersEra);
 
-//Bee Stings
-var beeStings = function(vw, bs){
-	var death = 185 * 8.666666667;
-	return death;
-}
+//(19 runs / 89 innings) x 9 = 1.92
 
-var finalStings = beeStings(185, 8.666666667);
 
-console.log("It takes " + finalStings + " bee stings to kill this animal");
 
 
 
