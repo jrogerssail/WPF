@@ -1,7 +1,7 @@
 //Lewie "Jason" Rogers, 10/21/2013, Functions_Industry
 
 //Average TV Size
-var tvSize = prompt("What size TV are your looking to purchase?");
+var tvSize = prompt("What size TV are your looking to purchase?"); //Ask user question
 var tvStock = 27 + " inch RCA"; 		//sets up index
 if(tvSize > tvStock){		//checks condition
 	var stockSizes = 30 + " inch RCA, ";
