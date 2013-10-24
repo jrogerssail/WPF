@@ -1,4 +1,4 @@
-//Lewie "Jason" Rogers, 10/21/2013, Functions_Personal
+//Lewie "Jason" Rogers, 10/21/2013, Functions_Industry
 
 //ERA or Earned Run Average
 var earnedRuns = prompt("How many earned runs were charged to the pitcher?");//Total number of earned runs charged to the pitchers
