@@ -1,6 +1,6 @@
 //Lewie "Jason" Rogers, 10/21/2013, Functions_Industry
 
-//ERA or Earned Run Average
+//Average TV Size
 var earnedRuns = prompt("How many earned runs were charged to the pitcher?");//Total number of earned runs charged to the pitchers
 var inningsPitched = prompt("How many innings did the pitcher pitch?");//Total number of innings pitched by the pitcher
 var era = function(e, i){ //Function for finding ERA or How many runs the pitcher gives up for every 9 innings pitched.
