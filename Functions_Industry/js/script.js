@@ -2,14 +2,21 @@
 
 //Average TV Size
 var tvSize = prompt("What size TV are your looking to purchase?");
-var tvStock = 27 + "inch RCA"; 		//sets up index
+var tvStock = 27 + " inch RCA"; 		//sets up index
 if(tvSize > tvStock){		//checks condition
-	var stockSizes = (22, 24, 26);
-	console.log(stockSizes + 'These are you TV choices');
+	var stockSizes = 30 + " inch RCA, ";
+	var tv22 = 22;
+	var tv24 = 24;
+	var tv26 = 26;
+	var tv27 = 27;
+	var tv32 = 32;
+	var tv36 = 36;
+	var tv42 = 42;
+	alert("These are your TV choices... " + stockSizes + tv32 + " inch RCA, " + tv36 + " inch Vizio, " + tv42 + "inch Samsung");
+	console.log('These are your TV choices... ' + stockSizes);
 	tvStock --; //increments or decrements the index
 }
-
-console.log("These are you TV choices " + tvStock);
+//console.log("These are you TV choices " + tvStock);
 
 
 
@@ -18,4 +25,7 @@ console.log("These are you TV choices " + tvStock);
 //tvChoices(22inch RCA, 22inch Samsung, 24inch RCA);
 
 
-
+for(var tvSize = 22; tvSize < 27; tvSize++){
+document.write(tvSize + " ");
+}
+//console.log(a);
