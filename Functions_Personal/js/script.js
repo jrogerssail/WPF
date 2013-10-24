@@ -15,6 +15,8 @@ console.log("The pitchers ERA is " + pitchersEra); //console to see results
 
 //(earned runs / innings pitched) x 9 for number of innings per complete game = ERA or Earned Run Average
 
+//index.html page runs as exxpected when script is loaded
+
 
 
 
