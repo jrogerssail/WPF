@@ -9,7 +9,7 @@ var snickers = prompt("How many pieces are in the bag?"); //Ask user question
 var mars = prompt("How many pieces are in the bag?"); //Ask user question
 var bagSize = 20 + " Halloween bags"; 		//sets up index
 var candyType = hershey, skittles, reeses, smarties, snickers, mars;
-if(candyType > 18){		//checks condition
+if(candyType > 18){ //checks condition
 	var extraHershey = hershey - bagSize + " extra pieces, ";
 	var extraSkittles = skittles - bagSize + " extra pieces, ";
 	var extraReeses = reeses - bagSize + " extra pieces, ";
